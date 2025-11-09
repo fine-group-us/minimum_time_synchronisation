@@ -11,7 +11,7 @@ mu = 0.1
 k = float(sys.argv[1])
 
 #  Limit cycle data:
-data = np.loadtxt('limitcycle1bisbis2000.dat')
+data = np.loadtxt('limitcycle.dat')
 xfs = data[:, 0]
 vfs = data[:, 1]
 
