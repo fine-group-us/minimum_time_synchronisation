@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import scipy.optimize as opt
 
 # Limit cycle data:
-data = np.loadtxt('limitcycle1bisbis2000.dat')
+data = np.loadtxt('limitcycle.dat')
 xfs = data[:, 0]
 vfs = data[:, 1]
 
