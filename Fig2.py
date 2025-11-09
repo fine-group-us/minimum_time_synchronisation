@@ -5,9 +5,6 @@ import numpy as np
 import scipy.integrate as integr
 import matplotlib.pyplot as plt
 import scipy.optimize as opt
-from matplotlib import rc
-rc('font', **{'family': 'serif', 'serif': ['Times']})
-rc('text', usetex=True)
 
 # Limit cycle data:
 data = np.loadtxt('limitcycle1bisbis2000.dat')
