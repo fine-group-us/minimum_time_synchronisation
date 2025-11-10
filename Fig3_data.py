@@ -153,4 +153,4 @@ for i in range(Nx - 1):
                 interface_points.append((x, v))
                 break
 
-np.savetxt('reds_blues' + str(k) + '.dat', interface_points)
+np.savetxt('sign_curve_' + str(k) + '.dat', interface_points)
