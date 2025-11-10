@@ -40,7 +40,7 @@ def vf_neg(x):
 
 # This case is more complex than the oustside case. Since curves starting from different points on the limit cycle intersect, we need to choose, for each point of the phase space, which of the trajectories reaches the limit cycle first. This is done in Fig3_data.py, which generates the data file 'reds_blues' + str(k)+ '.dat'. This contains the curve defining the change of sign of the control for each point in the phase space inside the limit cycle.
 
-data = np.loadtxt('reds_blues' + str(k)+ '.dat')
+data = np.loadtxt('sign_curve_' + str(k)+ '.dat')
 x = data[:, 0]
 v = data[:, 1]
 
