@@ -212,4 +212,4 @@ plt.gca().xaxis.set_major_formatter(
 )
 plt.tick_params(axis='both', which='major', direction='in',top=True, right=True, labeltop=False, labelright=False, labelsize=16)
 plt.tight_layout()
-plt.savefig('try_xcVSk_new.pdf')
+plt.savefig('Fig2.pdf')
