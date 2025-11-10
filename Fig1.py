@@ -515,4 +515,8 @@ ax1.tick_params(axis='both', which='major', direction='in', top=True, right=True
 ax1.set_aspect('equal', adjustable='box')
 fig1.subplots_adjust(left=0, right=1, top=1, bottom=0)  # Elimina márgenes
 fig1.tight_layout(pad=0)  # Sin padding extra
-fig1.savefig('prueba'+str(k)+'.pdf')
+if k == 2.0:
+     fig1.savefig('Fig11.pdf')
+if k == 0.2:
+     fig1.savefig('Fig12.pdf')
+     
