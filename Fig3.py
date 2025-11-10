@@ -141,7 +141,7 @@ if k == 2.0:
     ax1.tick_params(axis='both', which='major', direction='in', top=True, right=True, labeltop=False, labelright=False, labelsize=22)
     ax1.set_aspect('equal', adjustable='box')
     fig1.tight_layout(pad=0)  # Minimiza márgenes sin ocluir etiqueta
-    plt.savefig('colormap_inside_k' + str(k) + '.pdf')
+    plt.savefig('Fig31.pdf')
 
 # k = 0.5
 if k == 0.5:
@@ -279,7 +279,7 @@ if k == 0.5:
     ax1.tick_params(axis='both', which='major', direction='in', top=True, right=True, labeltop=False, labelright=False, labelsize=22)
     ax1.set_aspect('equal', adjustable='box')
     fig1.tight_layout(pad=0) 
-    fig1.savefig('colormap_inside_k' + str(k) + '.pdf')
+    fig1.savefig('Fig32.pdf')
 
 
 
